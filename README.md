@@ -45,7 +45,7 @@ pip install comtypes
 pip install numpy
 ```
 
-> **Tip:** If installation of `mediapipe` fails, make sure you are using Python 3.10 or 3.11.
+` Tip: If installation of `mediapipe` fails, make sure you are using Python 3.10 or 3.11.`
 
 ---
 
