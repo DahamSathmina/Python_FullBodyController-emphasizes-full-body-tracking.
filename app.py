@@ -44,7 +44,6 @@ class HandDetector:
             for id in range(1,5):
                 fingers.append(1 if lmList[self.tipIds[id]][2]< lmList[self.tipIds[id]-2][2] else 0)
         return fingers
-
 # ---------------- Body Detector ----------------
 class BodyDetector:
     def __init__(self,detectionCon=0.7,trackCon=0.7):
@@ -190,7 +189,6 @@ def main():
                 cv2.ellipse(img,center,(radius,radius),-90,0,int(360*volPercent/100),(0,255,255),10)
                 cv2.putText(img,f'Volume: {volPercent}%',(10,220),cv2.FONT_HERSHEY_SIMPLEX,0.8,(255,255,0),2)
                 cv2.putText(img,'Volume Control',(x1-40,y1-40),cv2.FONT_HERSHEY_SIMPLEX,0.6,(0,255,255),2)
-
         # FPS
         cTime=time.time()
         fps=1/(cTime-pTime) if cTime!=pTime else 0
@@ -211,4 +209,6 @@ def main():
 
 if __name__=="__main__":
     main()
+
+
 
