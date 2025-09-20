@@ -33,6 +33,11 @@ You can install all required libraries at once using `pip`:
 ```bash
 pip install opencv-python mediapipe pyautogui pycaw comtypes numpy
 ```
+or
+
+```bash
+pip install -r requirements.txt
+```
 
 Alternatively, install them one by one:
 
