@@ -86,10 +86,10 @@ Contributions are welcome:
 
 ## Acknowledgements
 
-- **MediaPipe** — Real-time hand and body tracking  
-- **OpenCV** — Image processing and visualization  
-- **PyAutoGUI** — Mouse and keyboard automation  
-- **Pycaw** — Windows audio control  
+- **MediaPipe** - Real-time hand and body tracking  
+- **OpenCV** - Image processing and visualization  
+- **PyAutoGUI** - Mouse and keyboard automation  
+- **Pycaw** - Windows audio control  
 
 
 
