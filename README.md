@@ -32,8 +32,9 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/HackerUI.git
-cd HackerUI
+git clone https://github.com/DahamSathmina/Python_FullBodyController-emphasizes-full-body-tracking.git
+cd Python_FullBodyController-emphasizes-full-body-tracking
+```
 
   
 
