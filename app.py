@@ -134,8 +134,8 @@ def main():
     pTime=0
 
     # Make window resizable and support maximize/minimize
-    cv2.namedWindow("Tron-Style Full-Body Controller", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("Tron-Style Full-Body Controller", 1280, 720)
+    cv2.namedWindow("BODYTracker", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("BODYTracker", 1000, 720)
 
     while True:
         success,img=cap.read()
@@ -193,15 +193,15 @@ def main():
         cTime=time.time()
         fps=1/(cTime-pTime) if cTime!=pTime else 0
         pTime=cTime
-        cv2.putText(img,f'FPS: {int(fps)}',(w-120,30),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,255),2)
-        cv2.putText(img,'Next-Level Tron UI',(10,h-20),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),2)
+        cv2.putText(img,f'FPS: {int(fps)}',(w-120,30),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)
+        cv2.putText(img,'Hi, Im Track Your Body...',(10,h-20),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),2)
 
         # Show image
-        cv2.imshow("Tron-Style Full-Body Controller",img)
+        cv2.imshow("BODYTracker",img)
 
         # Handle ESC key or window close
         key=cv2.waitKey(1) & 0xFF
-        if key==27 or cv2.getWindowProperty("Tron-Style Full-Body Controller", cv2.WND_PROP_VISIBLE) < 1:
+        if key==27 or cv2.getWindowProperty("BODYTracker", cv2.WND_PROP_VISIBLE) < 1:
             break
 
     cap.release()
