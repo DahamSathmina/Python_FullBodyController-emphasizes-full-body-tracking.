@@ -6,3 +6,5 @@ pyautogui
 dlib
 face_recognition
 imutils
+torch      # Optional for GPU acceleration
+torchvision # Optional for GPU acceleration
