@@ -1,6 +1,8 @@
 opencv-python
 mediapipe
-pyautogui
-pycaw
-comtypes
 numpy
+PyQt5
+pyautogui
+dlib
+face_recognition
+imutils
