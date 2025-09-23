@@ -1,88 +1,41 @@
 # Python_FullBodyController-emphasizes-full-body-tracking.
 
-**Full-body hand and gesture tracking system with Tron-style UI**
+# Hacker UI Body & Face Controller
 
-Control your computer using natural gestures: move the mouse, click, adjust volume, and scroll. Built with Python, MediaPipe, OpenCV, and PyAutoGUI for real-time interaction with a futuristic Tron-style interface.
+**A next-level interactive Hacker UI with real-time body and face tracking, neon effects, matrix visuals, and gesture-controlled mouse.**
 
 ---
 
 ## Features
 
-- Full-body tracking using **MediaPipe Pose** (head, shoulders, elbows, hips, knees, ankles).  
-- Hand gesture control using **MediaPipe Hands**:
-  - Move mouse with index finger.  
-  - Click with index + middle finger.  
-  - Adjust volume with thumb + index pinch.  
-  - Optional scroll gestures.  
-- Smooth cursor control with adjustable sensitivity.  
-- Tron-style UI:
-  - Glowing skeleton overlay for hands and body.  
-  - Animated cursor trail.  
-  - On-screen FPS and status display.
+- **Real-time Body Tracking** – Tracks your full body using MediaPipe Pose.
+- **Hand Gesture Controls** – Control mouse pointer and clicks using hand gestures.
+- **Face Mesh & Face Effects** – Overlay face mesh and apply face filters or changes.
+- **Next-Level Hacker UI**:
+  - Dynamic multi-layered matrix background.
+  - Floating hacker text snippets.
+  - Neon cursor trail with fade effect.
+  - Glitch animations for hacker vibes.
+  - Interactive HUD panel showing FPS and cursor activity.
+- **Cross-Platform** – Works on Windows, Linux, and macOS.
 
 ---
 
-## Requirements
+## Screenshots
 
-- Python 3.10 (recommended)  
-
-### Install required libraries
-
-You can install all required libraries at once using `pip`:
-
-```bash
-pip install opencv-python mediapipe pyautogui pycaw comtypes numpy
-```
-or
-
-```bash
-pip install -r requirements.txt
-```
-
-Alternatively, install them one by one:
-
-```bash
-pip install opencv-python
-pip install mediapipe
-pip install pyautogui
-pip install pycaw
-pip install comtypes
-pip install numpy
-```
-
-` Tip: If installation of `mediapipe` fails, make sure you are using Python 3.10 or 3.11.`
+*(Add your screenshots here)*
 
 ---
 
-## Usage
+## Installation
 
-Run the application:
+1. Clone the repository:
 
 ```bash
-python app.py
-```
+git clone https://github.com/yourusername/HackerUI.git
+cd HackerUI
 
-### Controls
-
-- **Move mouse:** Index finger up, middle finger down  
-- **Click:** Index + middle finger together  
-- **Volume control:** Pinch thumb + index finger  
-- **Exit:** Press `ESC`  
-
-### Tips
-
-- Adjust `smoothFactor` in the code to control cursor responsiveness.  
-- Use a well-lit environment and plain background for best tracking performance.  
-- Optional: tweak `detectionCon` and `trackCon` in `HandDetector` for detection stability.
-
----
-
-## Acknowledgements
-
-- **MediaPipe** - Real-time hand and body tracking  
-- **OpenCV** - Image processing and visualization  
-- **PyAutoGUI** - Mouse and keyboard automation  
-- **Pycaw** - Windows audio control  
+  
 
 
 
