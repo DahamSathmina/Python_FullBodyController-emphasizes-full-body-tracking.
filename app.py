@@ -300,7 +300,8 @@ class HackerWindow(QtWidgets.QMainWindow):
         except:
             pass
         event.accept()
-
+        
+        
 # ----------------------- Main -----------------------
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
