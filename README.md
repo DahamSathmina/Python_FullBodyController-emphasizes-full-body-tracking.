@@ -1,6 +1,5 @@
-# Python_FullBodyController-emphasizes-full-body-tracking.
 
-# Hacker UI Body & Face Controller
+# Python_FullBodyController-emphasizes-full-body-tracking with Hacker UI
 
 **A next-level interactive Hacker UI with real-time body and face tracking, neon effects, matrix visuals, and gesture-controlled mouse.**
 
@@ -36,7 +35,56 @@ git clone https://github.com/DahamSathmina/Python_FullBodyController-emphasizes-
 cd Python_FullBodyController-emphasizes-full-body-tracking
 ```
 
-  
+2. Install dependencies:
 
+```bash
+pip install -r requirements.txt
+```
 
+3. Run the application:
 
+```bash
+python main.py
+```
+
+---
+
+## Requirements (`requirements.txt` content)
+
+```text
+opencv-python
+mediapipe
+numpy
+PyQt5
+pyautogui
+dlib
+face_recognition
+imutils
+torch      # Optional for GPU acceleration
+torchvision # Optional for GPU acceleration
+```
+
+---
+
+## Usage
+
+1. Run the app.  
+2. Allow camera access.  
+3. Use your hands to move the mouse and click:
+   - **Index finger extended** → Move mouse  
+   - **Index + middle finger extended** → Left click  
+4. Observe face mesh overlay and hacker UI effects.
+
+---
+
+## Notes
+
+- Works best with good lighting conditions.  
+- FPS may vary depending on CPU/GPU performance.  
+- For advanced face manipulation, optional GPU libraries are recommended.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
