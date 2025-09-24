@@ -248,7 +248,7 @@ class HackerWindow(QtWidgets.QMainWindow):
         self.resize(1280, 720)
         self.setStyleSheet("background-color: black; color: #00ff00; font-family: monospace;")
         # Set app icon
-        self.setWindowIcon(QtGui.QIcon("Assets/icon/icon.png"))  # <-- add your icon path here
+        self.setWindowIcon(QtGui.QIcon("./Assets/icon/icon-512.ico"))  # <-- add your icon path here
 
         # Main video label
         self.videoLabel = QtWidgets.QLabel()
