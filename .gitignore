@@ -26,3 +26,8 @@ build/
 
 # Pytest cache
 .pytest_cache/
+
+
+SetUp Scripts .iss File.iss
+hackerui_bodycontroller_setup.exe
+
